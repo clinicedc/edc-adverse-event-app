@@ -1,4 +1,4 @@
-|pypi| |travis| |codecov| |downloads|
+|pypi| |downloads|
 
 adverse_event_app
 -----------------
