@@ -1,6 +1,6 @@
 arrow
 dateutil
-django==2.2.10
+django==2.2.13
 edc-action-item
 edc-adverse-event
 edc-consent
