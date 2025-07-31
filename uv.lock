@@ -20,6 +20,10 @@ version = "1.0.0"
 source = { virtual = "." }
 
 [package.dev-dependencies]
+dev = [
+    { name = "edc-action-item" },
+    { name = "edc-adverse-event" },
+]
 docs = [
     { name = "furo" },
     { name = "sphinx" },
@@ -37,6 +41,10 @@ lint = [
 [package.metadata]
 
 [package.metadata.requires-dev]
+dev = [
+    { name = "edc-action-item", specifier = ">=1.0.3" },
+    { name = "edc-adverse-event", specifier = ">=1.1.2" },
+]
 docs = [
     { name = "furo", specifier = ">=2025.7.19" },
     { name = "sphinx", specifier = ">=8.2.3" },
@@ -183,6 +191,24 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/ae/ed/aefcc8cd0ba62a0560c3c18c33925362d46c6075480bfa4df87b28e169a9/docutils-0.21.2.tar.gz", hash = "sha256:3a6b18732edf182daa3cd12775bbb338cf5691468f91eeeb109deff6ebfa986f", size = 2204444, upload-time = "2024-04-23T18:57:18.24Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/8f/d7/9322c609343d929e75e7e5e6255e614fcc67572cfd083959cdef3b7aad79/docutils-0.21.2-py3-none-any.whl", hash = "sha256:dafca5b9e384f0e419294eb4d2ff9fa826435bf15f15b7bd45723e8ad76811b2", size = 587408, upload-time = "2024-04-23T18:57:14.835Z" },
+]
+
+[[package]]
+name = "edc-action-item"
+version = "1.0.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/17/6b/27e76da62ebed46a78e640e283f8ca0265e66108489e1db9b9d68c8a57f2/edc_action_item-1.0.3.tar.gz", hash = "sha256:8d5aadaec0fc0aea00a3a22dcdadbc5b175c5df0aeae2f9a639b7aa9a4f91db6", size = 81010, upload-time = "2025-07-09T15:36:37.112Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f2/40/742684f63696d56f14ff7618a2ea92c8de7785ba787aa58594a20ac601b9/edc_action_item-1.0.3-py3-none-any.whl", hash = "sha256:1063fa6685038a03e11865d0c3b82e43540c6ecacb5f9291ca3adbc7abfc82b3", size = 117909, upload-time = "2025-07-09T15:36:35.641Z" },
+]
+
+[[package]]
+name = "edc-adverse-event"
+version = "1.1.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/1e/c0/b88e61a2fa03b430afe4baae495be453aaf9435eb0bef436f850b282f0b9/edc_adverse_event-1.1.2.tar.gz", hash = "sha256:afda43d5cdfdfafb672a31428512a1026c0168c8f87b51418eaeab7102db97a3", size = 77273, upload-time = "2025-07-31T18:13:20.305Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ab/ec/8edc1aa09c750fcdc14d4af102c16f4cf12092e76fd8e9d83a6034f13039/edc_adverse_event-1.1.2-py3-none-any.whl", hash = "sha256:40e93576613dcaae0a80b380c2be684119da6d4b0198a8afc94898cfa1977143", size = 161365, upload-time = "2025-07-31T18:13:18.925Z" },
 ]
 
 [[package]]
