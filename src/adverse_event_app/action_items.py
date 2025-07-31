@@ -1,7 +1,5 @@
 from edc_action_item import site_action_items
 from edc_action_item.action_with_notification import ActionWithNotification
-from edc_constants.constants import HIGH_PRIORITY
-
 from edc_adverse_event.action_items import (
     AeFollowupAction,
     AeInitialAction,
@@ -16,6 +14,7 @@ from edc_adverse_event.constants import (
     DEATH_REPORT_ACTION,
     STUDY_TERMINATION_CONCLUSION_ACTION,
 )
+from edc_constants.constants import HIGH_PRIORITY
 
 
 class StudyTerminationConclusionAction(ActionWithNotification):

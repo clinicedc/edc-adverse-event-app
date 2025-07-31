@@ -1,11 +1,10 @@
 from django.contrib import admin
-from edc_model_admin.history import SimpleHistoryAdmin
-
 from edc_adverse_event.modeladmin_mixins import (
     AeFollowupModelAdminMixin,
     AeInitialModelAdminMixin,
     HospitalizationModelAdminMixin,
 )
+from edc_model_admin.history import SimpleHistoryAdmin
 
 from .models import AeFollowup, AeInitial, Hospitalization
 

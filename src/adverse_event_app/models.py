@@ -1,6 +1,18 @@
 from django.db import models
 from django.db.models.deletion import PROTECT
 from edc_action_item.models.action_model_mixin import ActionModelMixin
+from edc_adverse_event.constants import STUDY_TERMINATION_CONCLUSION_ACTION
+from edc_adverse_event.model_mixins import (
+    AeFollowupModelMixin,
+    AeInitialModelMixin,
+    AesiModelMixin,
+    AeSusarModelMixin,
+    AeTmgModelMixin,
+    DeathReportModelMixin,
+    DeathReportTmgModelMixin,
+    DeathReportTmgSecondModelMixin,
+    HospitalizationModelMixin,
+)
 from edc_consent.field_mixins.identity_fields_mixin import IdentityFieldsMixin
 from edc_consent.field_mixins.personal_fields_mixin import PersonalFieldsMixin
 from edc_consent.managers import ConsentObjectsByCdefManager, CurrentSiteByCdefManager
@@ -15,19 +27,6 @@ from edc_visit_schedule.model_mixins.off_schedule_model_mixin import (
     OffScheduleModelMixin,
 )
 from edc_visit_tracking.model_mixins import VisitModelMixin
-
-from edc_adverse_event.constants import STUDY_TERMINATION_CONCLUSION_ACTION
-from edc_adverse_event.model_mixins import (
-    AeFollowupModelMixin,
-    AeInitialModelMixin,
-    AesiModelMixin,
-    AeSusarModelMixin,
-    AeTmgModelMixin,
-    DeathReportModelMixin,
-    DeathReportTmgModelMixin,
-    DeathReportTmgSecondModelMixin,
-    HospitalizationModelMixin,
-)
 
 
 class SubjectConsent(
