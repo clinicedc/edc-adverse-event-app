@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .idea
 django_crypto_fields
 
@@ -123,3 +124,15 @@ ENV/
 
 # mypy
 .mypy_cache/
+=======
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+>>>>>>> d7457b0 (init)
