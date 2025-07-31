@@ -1,6 +1,0 @@
-include AUTHORS CHANGES LICENSE VERSION
-include MANIFEST.in
-include *.rst
-include *.txt
-recursive-include adverse_event_app/templates *
-recursive-include adverse_event_app/static *
