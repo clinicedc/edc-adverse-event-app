@@ -3,6 +3,10 @@
 adverse_event_app
 -----------------
 
+.. code-block:: bash
+
+    pip install edc-adverse-event-app==1.0.2
+
 Adverse Event App used for tests in clinicedc/edc projects
 
 .. |pypi| image:: https://img.shields.io/pypi/v/adverse-event-app.svg
