@@ -15,51 +15,6 @@ wheels = [
 ]
 
 [[package]]
-name = "adverse-event-app"
-version = "1.0.3"
-source = { virtual = "." }
-
-[package.dev-dependencies]
-dev = [
-    { name = "edc-action-item" },
-    { name = "edc-adverse-event" },
-]
-docs = [
-    { name = "furo" },
-    { name = "sphinx" },
-    { name = "sphinx-design" },
-    { name = "sphinx-inline-tabs" },
-]
-lint = [
-    { name = "black" },
-    { name = "deptry" },
-    { name = "flake8" },
-    { name = "isort" },
-    { name = "ruff" },
-]
-
-[package.metadata]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "edc-action-item", specifier = ">=1.0.3" },
-    { name = "edc-adverse-event", specifier = ">=1.1.2" },
-]
-docs = [
-    { name = "furo", specifier = ">=2025.7.19" },
-    { name = "sphinx", specifier = ">=8.2.3" },
-    { name = "sphinx-design", specifier = ">=0.6.1" },
-    { name = "sphinx-inline-tabs", specifier = ">=2023.4.21" },
-]
-lint = [
-    { name = "black", specifier = ">=25.1.0" },
-    { name = "deptry", specifier = ">=0.23.0" },
-    { name = "flake8", specifier = ">=7.3.0" },
-    { name = "isort", specifier = ">=6.0.1" },
-    { name = "ruff", specifier = ">=0.12.5" },
-]
-
-[[package]]
 name = "alabaster"
 version = "1.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -210,6 +165,55 @@ sdist = { url = "https://files.pythonhosted.org/packages/1e/c0/b88e61a2fa03b430a
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ab/ec/8edc1aa09c750fcdc14d4af102c16f4cf12092e76fd8e9d83a6034f13039/edc_adverse_event-1.1.2-py3-none-any.whl", hash = "sha256:40e93576613dcaae0a80b380c2be684119da6d4b0198a8afc94898cfa1977143", size = 161365, upload-time = "2025-07-31T18:13:18.925Z" },
 ]
+
+[[package]]
+name = "edc-adverse-event-app"
+version = "1.0.4"
+source = { virtual = "." }
+
+[package.dev-dependencies]
+dev = [
+    { name = "edc-action-item" },
+    { name = "edc-adverse-event" },
+]
+docs = [
+    { name = "furo" },
+    { name = "sphinx" },
+    { name = "sphinx-design" },
+    { name = "sphinx-inline-tabs" },
+]
+lint = [
+    { name = "black" },
+    { name = "deptry" },
+    { name = "flake8" },
+    { name = "isort" },
+    { name = "ruff" },
+]
+test = [
+    { name = "edc-adverse-event-app" },
+]
+
+[package.metadata]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "edc-action-item", specifier = ">=1.0.3" },
+    { name = "edc-adverse-event", specifier = ">=1.1.2" },
+]
+docs = [
+    { name = "furo", specifier = ">=2025.7.19" },
+    { name = "sphinx", specifier = ">=8.2.3" },
+    { name = "sphinx-design", specifier = ">=0.6.1" },
+    { name = "sphinx-inline-tabs", specifier = ">=2023.4.21" },
+]
+lint = [
+    { name = "black", specifier = ">=25.1.0" },
+    { name = "deptry", specifier = ">=0.23.0" },
+    { name = "flake8", specifier = ">=7.3.0" },
+    { name = "isort", specifier = ">=6.0.1" },
+    { name = "ruff", specifier = ">=0.12.5" },
+]
+test = [{ name = "edc-adverse-event-app", virtual = "." }]
 
 [[package]]
 name = "flake8"
