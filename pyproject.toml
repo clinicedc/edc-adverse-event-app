@@ -1,6 +1,6 @@
 [project]
 name = "edc-adverse-event-app"
-version = "1.0.4"
+version = "1.0.5"
 description = "Add your description here"
 readme = {file = "README.rst", content-type = "text/x-rst"}
 license = "GPL-3.0-or-later"
