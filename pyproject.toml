@@ -1,5 +1,5 @@
 [project]
-name = "adverse-event-app"
+name = "edc-adverse-event-app"
 version = "1.0.3"
 description = "Add your description here"
 readme = "README.rst"
@@ -15,6 +15,9 @@ extend-exclude = '''^(.*\/)*\b(migrations)\b($|\/.*$)'''
 profile = "black"
 py_version = "312"
 skip = [".tox", ".eggs", "migrations", "_version.py"]
+
+[tool.uv.sources]
+edc-adverse-event-app = { workspace = true }
 
 [dependency-groups]
 lint = [
@@ -34,4 +37,7 @@ docs = [
 dev = [
     "edc-action-item>=1.0.3",
     "edc-adverse-event>=1.1.2",
+]
+test = [
+    "edc-adverse-event-app",
 ]

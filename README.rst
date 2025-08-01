@@ -9,11 +9,11 @@ adverse_event_app
 
 Adverse Event App used for tests in clinicedc/edc projects
 
-.. |pypi| image:: https://img.shields.io/pypi/v/adverse-event-app.svg
-    :target: https://pypi.python.org/pypi/adverse-event-app
+.. |pypi| image:: https://img.shields.io/pypi/v/edc-adverse-event-app.svg
+    :target: https://pypi.python.org/pypi/edc-adverse-event-app
 
-.. |downloads| image:: https://pepy.tech/badge/adverse-event-app
-   :target: https://pepy.tech/project/adverse-event-app
+.. |downloads| image:: https://pepy.tech/badge/edc-adverse-event-app
+   :target: https://pepy.tech/project/edc-adverse-event-app
 
 .. |clinicedc| image:: https://img.shields.io/badge/framework-Clinic_EDC-green
    :alt:Made with clinicedc
