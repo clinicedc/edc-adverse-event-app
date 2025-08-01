@@ -3,7 +3,7 @@
 adverse_event_app
 -----------------
 
-Sample Adverse Event App used for tests in clinicedc/edc projects
+Adverse Event App used for tests in clinicedc/edc projects
 
 .. |pypi| image:: https://img.shields.io/pypi/v/adverse-event-app.svg
     :target: https://pypi.python.org/pypi/adverse-event-app
